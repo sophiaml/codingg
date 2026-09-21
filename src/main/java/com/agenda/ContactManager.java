@@ -10,9 +10,7 @@ public class ContactManager {
     private List<Contact> contacts = new ArrayList<>();
 
     public ContactManager() {
-        // TODO 1: cuando se crea el ContactManager, hay que cargar
-        // los contactos que ya existan en el archivo (si existe).
-        // Pista: llama a un metodo load() que tu vas a escribir abajo.
+        load();
     }
 
     public void add(Contact contact) {
