@@ -32,10 +32,10 @@ public class ContactManager {
     }
 
     private void load() {
-        // TODO 5: si el archivo FILE_NAME existe, leelo linea por linea
-        // y por cada linea crea un Contact con Contact.fromFileLine(linea)
-        // y agregalo a "contacts".
-        //
+        public String getFILE_NAME(){
+            Contact.fromFileLine(linea);
+            contacts.add(Contact);
+
         // Pista: usa try (BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME))) { ... }
         // File file = new File(FILE_NAME); if (!file.exists()) return;
     }
