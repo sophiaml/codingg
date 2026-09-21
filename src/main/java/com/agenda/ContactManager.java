@@ -14,8 +14,8 @@ public class ContactManager {
     }
 
     public void add(Contact contact) {
-        // TODO 2: agrega el contacto a la lista "contacts"
-        // y luego guarda TODA la lista en el archivo (llama a save()).
+        add();
+        save();
     }
 
     public List<Contact> listAll() {
