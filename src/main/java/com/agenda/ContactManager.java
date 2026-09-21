@@ -14,7 +14,7 @@ public class ContactManager {
     }
 
     public void add(Contact contact) {
-        add();
+        contacts.add(contacts);
         save();
     }
 
