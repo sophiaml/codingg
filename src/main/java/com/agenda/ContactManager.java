@@ -19,7 +19,7 @@ public class ContactManager {
     }
 
     public List<Contact> listAll() {
-        // TODO 3: devuelve la lista de contactos.
+        System.out.println(contacts);
         return null;
     }
 
