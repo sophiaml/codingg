@@ -19,7 +19,7 @@ public class ContactManager {
     }
 
     public List<Contact> listAll() {
-        return null;
+        return contacts;
     }
 
     private void save() {
