@@ -14,12 +14,11 @@ public class ContactManager {
     }
 
     public void add(Contact contact) {
-        contacts.add(contacts);
+        contacts.add(contact);
         save();
     }
 
     public List<Contact> listAll() {
-        System.out.println(contacts);
         return null;
     }
 
